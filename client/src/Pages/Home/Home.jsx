@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Slider from 'react-slick';
 import Navbar from '../../Components/Navbar/Navbar'
 import boba from './Images/boba_landscape.png'
