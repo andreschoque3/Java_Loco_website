@@ -40,6 +40,14 @@
 /****** middle-sect ******/
 
 /**** carousel ****/
+.slider {
+    margin: 40px 0;
+}
+
+.img-slider {
+    width: 100vw;
+}
+
 .btn-align {
     text-align: center;
 }
