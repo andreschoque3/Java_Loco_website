@@ -1,0 +1,112 @@
+/**** Global ****/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #EBEAB4;
+    color: white;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+/**** header-section ****/
+
+.locations-header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Locations/Images/locations-bg.jpg);
+    position: relative;
+}
+
+.l-header-text h1 {
+    font-size: 75px;
+    margin: 20% 0;
+}
+
+/**** middle-section ****/
+
+.sub-head {
+    text-align: center;
+    color: black;
+    font-size: 65px;
+    margin: 50px 0;
+}
+
+.location-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    border: 1px solid #D0D0D0;
+    background-color: #D0D0D0;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.search-bar span {
+    font-size: 25px;
+    color: black;
+    margin: 0 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+}
+
+#zip-code, #distance {
+    padding: 10px;
+}
+
+.search-bar button {
+    margin: 0 30px;
+    padding: 10px;
+    background-color: #444444;
+    border: gray;
+    color: white;
+}
+
+.map-integration {
+    display: flex;
+    gap: 40px;
+}
+
+.side-bar {
+    border: 1px solid #444444;
+    border-radius: 20px;
+    background-color: #444444; 
+}
+
+.box-title {
+    display: flex;
+    gap: 10px;
+}
+
+.bar {
+    padding: 30px;
+}
+
+.bar p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.line-bar {
+    width: 80%;
+    margin: auto;
+}
+

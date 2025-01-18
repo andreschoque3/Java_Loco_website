@@ -1,4 +1,5 @@
-.header-section {
+/* Home.css */
+.home-page .header-section {
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -7,18 +8,18 @@
     position: relative;
 }
 
-.header-text h1{
+.home-page .header-text h1 {
     font-size: 75px;
     margin-top: 20%;
     color: white;
 }
 
-.header-text p {
-    margin: 20px 0;
+.home-page .header-text p {
+    margin: 0;
     font-size: 20px;
 }
 
-.btn {
+.home-page .btn {
     border-radius: 50px;
     border: 1px solid white;
     color: white;
@@ -27,105 +28,101 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 5px;
     cursor: pointer;
     transition: 0.5s;
 }
 
-.btn:hover {
+.home-page .btn:hover {
     background-color: white;
     color: black;
 }
 
 /****** middle-sect ******/
-
-/**** carousel ****/
-.slider {
+.home-page .slider {
     margin: 40px 0;
 }
 
-.img-slider {
+.home-page .img-slider {
     width: 100vw;
 }
 
-.btn-align {
+.home-page .btn-align {
     text-align: center;
 }
 
-.form-btn {
-    padding: 14px 60px;             
-    font-size: 18px;                
-    margin-top: 10px;               
-    cursor: pointer;                
-    border-radius: 10px;            
-    background-color: black;        
-    color: white;                   
-    border: none;       
+.home-page .form-btn {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
 }
 
-
-
 /**** Boba ****/
-.boba {
+.home-page .boba {
     display: flex;
     gap: 70px;
     margin: 40px 0;
 }
 
-.col-1 h1 {
+.home-page .col-1 h1 {
     font-size: 30px;
     margin-bottom: 20px;
     color: black;
     text-align: center;
 }
 
-.col-1 p {
+.home-page .col-1 p {
     font-size: 20px;
     color: black;
 }
 
-.col-2 img{
+.home-page .col-2 img {
     border-radius: 10px;
 }
 
 /**** Contact ****/
-.contact {
+.home-page .contact {
     display: flex;
     gap: 100px;
     margin: 40px 0;
     justify-content: center;
 }
 
-.left h1 {
+.home-page .left h1 {
     font-size: 35px;
     color: black;
 }
 
-.left {
-    flex-basis: 35%; 
+.home-page .left {
+    flex-basis: 35%;
 }
 
-.right {
+.home-page .right {
     flex-basis: 70%;
 }
 
-form input, form textarea {
-    width: 100%;                     
-    padding: 15px;                  
-    margin: 15px 0;                
-    color: black;                   
-    font-size: 18px;                
-    border-radius: 6px;      
-    border-color: transparent;     
+.home-page form input,
+.home-page form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: transparent;
 }
 
-form .form-btn {
-    padding: 14px 60px;             
-    font-size: 18px;                
-    margin-top: 10px;               
-    cursor: pointer;                
-    border-radius: 10px;            
-    background-color: black;        
-    color: white;                   
-    border: none;       
+.home-page form .form-btn {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
 }
