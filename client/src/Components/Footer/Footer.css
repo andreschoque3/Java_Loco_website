@@ -1,0 +1,37 @@
+.footer {
+    background-color: black;
+}
+
+.social-brands{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.social-brands a i{
+    transition: transform 0.5s;
+}
+
+.social-brands a i:hover{
+    color: #EBEAB4;
+    transform: translateY(-5px);
+}
+.fa-brands {
+    color: white;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+.copyright p{
+    text-align: center;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+}
+
+.terms p{
+    margin: 10px 20px;
+    color: #EBEAB4;
+    cursor: pointer;
+}
