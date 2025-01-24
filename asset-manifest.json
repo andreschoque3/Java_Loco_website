@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Java_Loco_website/static/css/main.9f1c3c2c.css",
-    "main.js": "/Java_Loco_website/static/js/main.f9bfa44f.js",
+    "main.css": "/Java_Loco_website/static/css/main.87c05dbd.css",
+    "main.js": "/Java_Loco_website/static/js/main.14a1cda2.js",
     "static/media/tea-2.png": "/Java_Loco_website/static/media/tea-2.e492e530a64ade6bea07.png",
     "static/media/menu-bg.jpg": "/Java_Loco_website/static/media/menu-bg.d5f9eebb1754c9846862.jpg",
     "static/media/about-bg.jpg": "/Java_Loco_website/static/media/about-bg.84cdaa8137f513e88681.jpg",
@@ -43,11 +43,11 @@
     "static/media/slick.ttf": "/Java_Loco_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Java_Loco_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Java_Loco_website/index.html",
-    "main.9f1c3c2c.css.map": "/Java_Loco_website/static/css/main.9f1c3c2c.css.map",
-    "main.f9bfa44f.js.map": "/Java_Loco_website/static/js/main.f9bfa44f.js.map"
+    "main.87c05dbd.css.map": "/Java_Loco_website/static/css/main.87c05dbd.css.map",
+    "main.14a1cda2.js.map": "/Java_Loco_website/static/js/main.14a1cda2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f1c3c2c.css",
-    "static/js/main.f9bfa44f.js"
+    "static/css/main.87c05dbd.css",
+    "static/js/main.14a1cda2.js"
   ]
 }
