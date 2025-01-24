@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookSquare, faTiktok, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import './Footer.css';
 
 function Footer() {
@@ -44,10 +46,10 @@ function Footer() {
         </div>
         <div className="bottom">
           <div className="social-brands">
-            <a href="https://facebook.com"><i className="fa-brands fa-square-facebook"></i></a>
-            <a href="https://tiktok.com"><i className="fa-brands fa-tiktok"></i></a>
-            <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com"><i className="fa-brands fa-x-twitter"></i></a>
+            <a href="https://facebook.com"><FontAwesomeIcon icon={faFacebookSquare}/></a>
+            <a href="https://tiktok.com"><FontAwesomeIcon icon={faTiktok}/></a>
+            <a href="https://instagram.com"><FontAwesomeIcon icon={faInstagram}/></a>
+            <a href="https://x.com"><FontAwesomeIcon icon={faXTwitter}/></a>
           </div>
           <div className="copyright">
             <p>© 2024 Java Loco. All rights reserved.</p>

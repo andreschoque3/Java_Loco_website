@@ -7,15 +7,15 @@
     margin: 40px 0;
 }
 
-.social-brands a i{
+.social-brands a svg{
     transition: transform 0.5s;
 }
 
-.social-brands a i:hover{
+.social-brands a svg:hover{
     color: #EBEAB4;
     transform: translateY(-5px);
 }
-.fa-brands {
+.social-brands a svg {
     color: white;
     font-size: 25px;
     margin: 0 20px;
