@@ -10,12 +10,10 @@
 
 .home-page .header-text h1 {
     font-size: 75px;
-    margin-top: 20%;
     color: white;
 }
 
 .home-page .header-text p {
-    margin: 0;
     font-size: 20px;
 }
 
@@ -42,9 +40,22 @@
     margin: 40px 0;
 }
 
-.home-page .img-slider {
-    width: 100vw;
+.slick-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center; 
+    height: auto !important; 
+    overflow: hidden; 
 }
+
+.slick-slide img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
 
 .home-page .btn-align {
     text-align: center;
