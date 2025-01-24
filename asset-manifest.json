@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Java_Loco_website/static/css/main.de018d3a.css",
-    "main.js": "/Java_Loco_website/static/js/main.538fc522.js",
+    "main.css": "/Java_Loco_website/static/css/main.9f1c3c2c.css",
+    "main.js": "/Java_Loco_website/static/js/main.f9bfa44f.js",
     "static/media/tea-2.png": "/Java_Loco_website/static/media/tea-2.e492e530a64ade6bea07.png",
     "static/media/menu-bg.jpg": "/Java_Loco_website/static/media/menu-bg.d5f9eebb1754c9846862.jpg",
     "static/media/about-bg.jpg": "/Java_Loco_website/static/media/about-bg.84cdaa8137f513e88681.jpg",
@@ -11,7 +11,6 @@
     "static/media/locations-bg.jpg": "/Java_Loco_website/static/media/locations-bg.06e155daffc3eab3cb3e.jpg",
     "static/media/boba-4.jpg": "/Java_Loco_website/static/media/boba-4.7ad3de76d10717fcaa9d.jpg",
     "static/media/boba-2.jpg": "/Java_Loco_website/static/media/boba-2.5bf41d32396b57be2bae.jpg",
-    "static/media/join-landscape.jpg": "/Java_Loco_website/static/media/join-landscape.d7cc51be5e1ee19fbc64.jpg",
     "static/media/login-bg.jpg": "/Java_Loco_website/static/media/login-bg.e2bc239b03650fc3a26e.jpg",
     "static/media/dd-logo.jpg": "/Java_Loco_website/static/media/dd-logo.268a929278c10cb35782.jpg",
     "static/media/pas-2.jpg": "/Java_Loco_website/static/media/pas-2.a58749565bf468c04d3a.jpg",
@@ -26,6 +25,7 @@
     "static/media/coffee-2.jpg": "/Java_Loco_website/static/media/coffee-2.bc1bbf0ff6747280a70e.jpg",
     "static/media/carousel-food.jpg": "/Java_Loco_website/static/media/carousel-food.f6b4cde9d9748e903ae0.jpg",
     "static/media/pas-1.jpg": "/Java_Loco_website/static/media/pas-1.03843c335649cd5e3327.jpg",
+    "static/media/join-landscape.jpg": "/Java_Loco_website/static/media/join-landscape.f8a9075d4ff596cbb80e.jpg",
     "static/media/boba-3.jpg": "/Java_Loco_website/static/media/boba-3.6746aa8dc7d40c2786ff.jpg",
     "static/media/boba-1.jpg": "/Java_Loco_website/static/media/boba-1.5d0b49ae14cb8d23cd16.jpg",
     "static/media/about-m2.jpg": "/Java_Loco_website/static/media/about-m2.52b6735f7fd4f4866630.jpg",
@@ -43,11 +43,11 @@
     "static/media/slick.ttf": "/Java_Loco_website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Java_Loco_website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Java_Loco_website/index.html",
-    "main.de018d3a.css.map": "/Java_Loco_website/static/css/main.de018d3a.css.map",
-    "main.538fc522.js.map": "/Java_Loco_website/static/js/main.538fc522.js.map"
+    "main.9f1c3c2c.css.map": "/Java_Loco_website/static/css/main.9f1c3c2c.css.map",
+    "main.f9bfa44f.js.map": "/Java_Loco_website/static/js/main.f9bfa44f.js.map"
   },
   "entrypoints": [
-    "static/css/main.de018d3a.css",
-    "static/js/main.538fc522.js"
+    "static/css/main.9f1c3c2c.css",
+    "static/js/main.f9bfa44f.js"
   ]
 }
