@@ -6,14 +6,12 @@ import './Checkout.css';
 import sampleImage from './Images/selection-sample.jpg';
 import { useEffect } from 'react';
 
-  
-
-
 
 function Checkout() {
   useEffect(() => {
     document.title = 'Java Loco - Checkout';
 }, []);
+
   return (
     <div className="checkout-header">
       <div className="container">

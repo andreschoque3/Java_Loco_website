@@ -32,7 +32,7 @@
   }
   
   .join-page .flex-join-img-col img {
-    width: 100%;
+    width: auto;
     border-radius: 10px;
   }
   
@@ -46,6 +46,11 @@
     font-size: 36px;
     margin-bottom: 20px;
     color: black;
+  }
+
+  .join-page .join-form {
+    width: 60%;
+    margin: auto;
   }
   
   .join-page .join-form input,
@@ -72,4 +77,9 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+  }
+
+  .btn-align {
+    text-align: center;
+    margin: 40px 0;
   }

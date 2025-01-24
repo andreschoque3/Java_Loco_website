@@ -189,9 +189,9 @@ const Join = () => {
                 required
               />
 
-              <button type="submit" className="btn-submit">
-                Submit
-              </button>
+              <div className="btn-align">
+                <button type="submit" className="btn-submit">Submit</button>
+              </div>
             </form>
           </div>
         </div>

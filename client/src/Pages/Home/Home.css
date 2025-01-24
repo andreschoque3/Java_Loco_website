@@ -8,13 +8,15 @@
     position: relative;
 }
 
-.home-page .header-text h1 {
+.home-page .head-text h1 {
     font-size: 75px;
+    margin-top: 20%;
     color: white;
 }
 
-.home-page .header-text p {
+.home-page .head-text p {
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .home-page .btn {
@@ -53,7 +55,7 @@
     max-width: 100%;
     height: auto;
     object-fit: contain;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 

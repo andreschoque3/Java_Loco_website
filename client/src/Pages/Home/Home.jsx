@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
@@ -47,10 +47,10 @@ function Home() {
             <div className="header-section">
                 <div className="container">
                     <Navbar />
-                    <div className="header-text">
+                    <div className="head-text">
                         <h1>Order our Coffee Now!</h1>
                         <p>Experience the rich, aromatic flavors of our freshly brewed coffee.</p>
-                        <a href="/Checkout" className="btn">Check Out</a>
+                        <Link to='/Checkout' className="btn">Check Out</Link>
                     </div>
                 </div>
             </div>
