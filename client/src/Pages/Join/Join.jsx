@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import "./Join.css";
@@ -23,11 +25,11 @@ const Join = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     const { name, email, phone, street, city, state, zipcode } = formData;
-
+  
     if (!name) {
       alert("Please enter your name.");
       return;
@@ -37,7 +39,7 @@ const Join = () => {
       return;
     }
     if (!phone || !/^\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/.test(phone)) {
-      alert("Please enter a valid phone number in the format (XXX) XXX-XXXX or XXX-XXX-XXXX.");
+      alert("Please enter a valid phone number.");
       return;
     }
     if (!street) {
@@ -56,28 +58,82 @@ const Join = () => {
       alert("Please enter a valid 5-digit zipcode.");
       return;
     }
-
-    alert("Form submitted successfully!");
-
-    // Reset form data after submission
-    setTimeout(() => {
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        street: "",
-        city: "",
-        state: "",
-        zipcode: "",
+  
+    const apikey = process.env.REACT_APP_WEB3FORMS_API_KEY;
+    if (!apikey) {
+      toast.error("API key is missing. Check your .env file.");
+      return;
+    }
+  
+    // Prepare form data
+    const formDataObj = new FormData();
+    formDataObj.append("access_key", apikey);
+    formDataObj.append("name", name);
+    formDataObj.append("email", email);
+    formDataObj.append("phone", phone);
+    formDataObj.append("street", street);
+    formDataObj.append("city", city);
+    formDataObj.append("state", state);
+    formDataObj.append("zipcode", zipcode);
+  
+    // Convert to JSON
+    const json = JSON.stringify(Object.fromEntries(formDataObj));
+    console.log("JSON Payload:", json);
+  
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
       });
-    }, 50);
+  
+      const result = await res.json();
+  
+      if (result.success) {
+        console.log("Success:", result);
+        toast.success("Message sent successfully!", {
+          autoClose: 2000,
+          pauseOnHover: false,
+          closeOnClick: true,
+        });
+  
+        // Reset form fields
+        setTimeout(() => {
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            street: "",
+            city: "",
+            state: "",
+            zipcode: "",
+          });
+        }, 50);
+      } else {
+        console.error("Error:", result);
+        toast.error(`Error sending message: ${result.message || "Unknown error"}`, {
+          autoClose: 2000,
+          pauseOnHover: false,
+          closeOnClick: true,
+        });
+      }
+    } catch (error) {
+      console.error("Fetch Error:", error);
+      toast.error("Network error, please try again later.");
+    }
   };
+  
 
   useEffect(() => {
     document.title = 'Java Loco - Join';
 }, []);
 
   return (
+  <div>
+    <ToastContainer/>
     <div className="join-page">
       {/* Header Section */}
       <div className="header-section-join">
@@ -189,9 +245,9 @@ const Join = () => {
                 required
               />
 
-              <button type="submit" className="btn-submit">
-                Submit
-              </button>
+              <div className="btn-align">
+                <button type="submit" className="btn-submit">Submit</button>
+              </div>
             </form>
           </div>
         </div>
@@ -199,6 +255,7 @@ const Join = () => {
 
       <Footer />
     </div>
+  </div>
   );
 };
 

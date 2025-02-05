@@ -1,0 +1,11 @@
+/* Arrows */
+.slick-prev,
+.slick-next {
+    width: 40px;    /* Increase width */
+    height: 40px;   /* Increase height */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px; /* Increase font size for the arrow icon */
+}
