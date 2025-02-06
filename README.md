@@ -5,7 +5,7 @@
 </p>
 
 ## About Java Loco
-![Home page picture](https://github.com/andreschoque3/Coffee_website/blob/main/Images/home-bg.jpg)
+![Home page picture](https://github.com/andreschoque3/Coffee_website/blob/main/client/src/Pages/Home/Images/home-bg.jpg)
 
 ## Tech stack
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />

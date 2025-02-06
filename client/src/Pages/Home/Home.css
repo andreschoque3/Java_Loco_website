@@ -15,7 +15,6 @@
 }
 
 .home-page .head-text p {
-    margin: 0;
     font-size: 20px;
     margin-bottom: 40px;
 }
@@ -59,9 +58,6 @@
     border-radius: 10px;
 }
 
-button.slick-arrow{
-    color: pink;
-}
 
 .home-page .btn-align {
     text-align: center;

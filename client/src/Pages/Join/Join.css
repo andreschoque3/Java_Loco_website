@@ -1,85 +1,85 @@
 .join-page .header-section-join {
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Join/Images/join-us-bg.jpg);
-  position: relative;
-}
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Join/Images/join-us-bg.jpg);
+    position: relative;
+  }
+  
+  .join-page .header-text h1 {
+    font-size: 75px;
+    margin-top: 20%;
+    color: white;
+  }
+  
+  .join-page .middle-sect .why-join-flex {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin: 40px 0;
+  }
+  
+  .join-page .flex-join-text-col h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .join-page .flex-join-text-col p {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .join-page .flex-join-img-col img {
+    width: auto;
+    border-radius: 10px;
+  }
+  
+  /* Join Form Section */
+  .join-page .join-form-section {
+    margin: 40px 0;
+  }
+  
+  .join-page .join-form-section h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
 
-.join-page .header-text h1 {
-  font-size: 75px;
-  margin-top: 20%;
-  color: white;
-}
+  .join-page .join-form {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .join-page .join-form input,
+  .join-page .join-form select,
+  .join-page .join-form textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: transparent;
+    justify-content: center;
+  }
+  
+  .join-page .btn-submit {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 
-.join-page .middle-sect .why-join-flex {
-  display: flex;
-  gap: 70px;
-  justify-content: center;
-  margin: 40px 0;
-}
-
-.join-page .flex-join-text-col h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
-  color: black;
-}
-
-.join-page .flex-join-text-col p {
-  font-size: 20px;
-  color: black;
-}
-
-.join-page .flex-join-img-col img {
-  width: 130%;
-  border-radius: 10px;
-}
-
-/* Join Form Section */
-.join-page .join-form-section {
-  margin: 40px 0;
-}
-
-.join-page .join-form-section h1 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: black;
-}
-
-.join-page .join-form {
-  width: 60%;
-  margin: auto;
-}
-
-.join-page .join-form input,
-.join-page .join-form select,
-.join-page .join-form textarea {
-  width: 100%;
-  padding: 14px;
-  margin: 15px 0;
-  font-size: 18px;
-  border-radius: 6px;
-  border-color: transparent;
-  justify-content: center;
-}
-
-.join-page .btn-submit {
-  padding: 14px 60px;
-  font-size: 18px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: black;
-  color: white;
-  border: none;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-
-.btn-align {
-  text-align: center;
-  margin: 40px 0;
-}
+  .btn-align {
+    text-align: center;
+    margin: 40px 0;
+  }

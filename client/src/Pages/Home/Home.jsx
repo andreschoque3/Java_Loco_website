@@ -109,7 +109,6 @@ function Home() {
                                         <img
                                             src={images}
                                             alt={`Slide ${index + 1}`}
-                                            style={{ width: '100vw', height: '80vh' }}
                                         />
                                     </div>
                                 ))}
