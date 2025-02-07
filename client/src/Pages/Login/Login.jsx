@@ -25,7 +25,8 @@ const Login = () => {
     setIsConfirmPasswordVisible(!isConfirmPasswordVisible);
   };
 
-  const toggleForm = () => {
+  const toggleForm = (e) => {
+    e.preventDefault();
     setIsLoginForm(!isLoginForm);
   };
 
@@ -49,8 +50,7 @@ const Login = () => {
   const validateLogin = () => {
     const { email, password } = formData;
     if (email && password) {
-      // Redirect to the Home page after login
-      navigate("/home");
+      navigate("/");
     } else {
       alert("Please fill out all fields.");
     }
